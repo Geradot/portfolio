@@ -41,10 +41,11 @@ export default function Navbar() {
       opacity: 0,
     },
     visible: {
+      display: 'flex',
       opacity: 1,
       y: -30,
       transition: {
-        delay: 0.7,
+        delay: 0.5,
       },
     },
   };
@@ -96,6 +97,7 @@ export default function Navbar() {
       ></motion.div>
       <motion.nav
         variants={navLinkVariants}
+        initial='hidden'
         animate={showMenu ? 'visible' : 'hidden'}
         className="min-h-screen md:hidden flex flex-col justify-center"
       >
