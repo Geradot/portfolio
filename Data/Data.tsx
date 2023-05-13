@@ -3,11 +3,7 @@ import {
   countUpItemsProps,
   NavLink,
   ProjectProps,
-  ServiceProps,
 } from '@/Types';
-import { BsVectorPen, BsCode } from 'react-icons/bs';
-import { FiBarChart } from 'react-icons/fi';
-import { HiMagnifyingGlass } from 'react-icons/hi2';
 
 const navLinks: NavLink[] = [
   { path: '/', label: 'Home' },
@@ -16,12 +12,6 @@ const navLinks: NavLink[] = [
   { path: '/contact', label: 'Contact' },
 ];
 
-const services: ServiceProps[] = [
-  { id: 1, title: 'UI/UX Design', icon: <BsVectorPen />, finished: 113 },
-  { id: 2, title: 'Web Developmemt', icon: <BsCode />, finished: 209 },
-  { id: 3, title: 'Web Research', icon: <HiMagnifyingGlass />, finished: 369 },
-  { id: 4, title: 'Marketing', icon: <FiBarChart />, finished: 313 },
-];
 const countUpItems: countUpItemsProps[] = [
   {
     id: 1,
@@ -76,9 +66,11 @@ const skills = [
   { name: 'HTML', level: 80 },
   { name: 'CSS', level: 75 },
   { name: 'JavaScript', level: 70 },
-  { name: 'TypeScript', level: 50 },
   { name: 'ReactJS', level: 75 },
   { name: 'NextJS', level: 65 },
+  { name: 'TypeScript', level: 50 },
+  { name: 'Tailwind', level: 70 },
+  { name: 'Bootstrap', level: 65 },
 ];
 
 const contacts: ContactsProps[] = [
@@ -86,4 +78,4 @@ const contacts: ContactsProps[] = [
   { id: 2, title: 'Email', text: 'anton.ryzhenko@tuta.io' },
 ];
 
-export { navLinks, projects, countUpItems, services, skills, contacts };
+export { navLinks, projects, countUpItems, skills, contacts };
