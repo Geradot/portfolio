@@ -50,7 +50,7 @@ const projects: ProjectProps[] = [
     id: 1,
     img: '/project3.png',
     name: 'Ellen seamstress (portfolio site)',
-    tools: ['NextJS', 'Bootstrap', 'Headless UI'],
+    tools: ['NextJS', 'Tailwind CSS', 'Headless UI'],
     github: 'https://github.com/Geradot/next-promo-ellen-surzhykova',
     url: 'https://next-promo-ellen-surzhykova.vercel.app/',
   },
