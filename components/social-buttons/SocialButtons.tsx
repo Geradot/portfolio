@@ -13,9 +13,6 @@ export default function SocialButtons({className}: Props) {
       <Link href="https://github.com/Geradot" target="_blank">
         <AiFillGithub className={socialClassNames} />
       </Link>
-      <Link href="mailto:anton.ryzhenko@tuta.io">
-        <AiFillMail className={socialClassNames} />
-      </Link>
     </div>
   );
 }

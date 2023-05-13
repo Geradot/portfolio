@@ -13,11 +13,8 @@ export default function Portfolio() {
 
       <Wrapper>
         <div className="flex flex-col pt-40 items-center">
-          <div className="uppercase font-semibold text-sm text-WhiteGray">
-            Portfolio
-          </div>
-          <h1 className="font-semibold text-3xl mt-8 text-WhiteGray uppercase">
-            My Masterpiece Collections
+          <h1 className="font-semibold text-3xl text-WhiteGray uppercase">
+            My Work Collections
           </h1>
           <p className="text-WhiteGray text-sm mt-8 leading-7">
             I specialize in developing custom web applications that cater to

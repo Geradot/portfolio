@@ -21,3 +21,13 @@
 .Text-Shadow:hover {
   text-shadow: 0 0 20px #eeb844, 0 0 20px #eeb844, 0 0 20px #eeb844;
 }
+
+
+.contacts > a,
+.about__buttons > * {
+  @apply flex gap-2 border rounded border-Orange py-2 px-4 text-Orange font-semibold text-sm uppercase hover:bg-Orange hover:text-Black transition-colors duration-300  
+}
+
+.contacts > a > span {
+  @apply my-auto
+}

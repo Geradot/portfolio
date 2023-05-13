@@ -73,7 +73,7 @@ export default function Navbar() {
               <Link
                 href={navLink.path}
                 key={navLink.path}
-                className={`text-lg uppercase Text-Shadow font-medium ${isActive(
+                className={`transition-all duration-300 text-lg uppercase Text-Shadow font-medium ${isActive(
                   navLink.path
                 )}`}
               >

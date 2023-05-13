@@ -14,7 +14,7 @@ export default function Wrapper({
       bg-Blur rounded-full blur-3xl"
       ></div>
       <>{children}</>
-      <SocialButtons className="fixed bottom-12 hidden left-6 md:flex item-center flex-col gap-4 " />
+      <SocialButtons className="fixed bottom-12 hidden left-4 md:flex item-center flex-col gap-4 " />
     </section>
   );
 }
