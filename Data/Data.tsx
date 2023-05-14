@@ -38,7 +38,8 @@ const countUpItems: countUpItemsProps[] = [
 const projects: ProjectProps[] = [
   {
     id: 1,
-    img: '/project3.png',
+    img: 'project3.png',
+    imgMobile: 'project3-mobile.jpg',
     name: 'Ellen seamstress (portfolio site)',
     tools: ['NextJS', 'Tailwind CSS', 'Headless UI'],
     github: 'https://github.com/Geradot/next-promo-ellen-surzhykova',
@@ -46,7 +47,8 @@ const projects: ProjectProps[] = [
   },
   {
     id: 2,
-    img: '/project2.png',
+    img: 'project2.png',
+    imgMobile: 'project2-mobile.jpg',
     name: 'Bookstore Web App',
     tools: ['Django', 'JavaScript', 'Bootstrap'],
     github: 'https://github.com/Geradot/bookstore',
@@ -54,7 +56,8 @@ const projects: ProjectProps[] = [
   },
   {
     id: 3,
-    img: '/project1.png',
+    img: 'project1.png',
+    imgMobile: 'project1-mobile.jpg',
     name: 'Bookstore SPA',
     tools: ['React', 'JavaScript', 'Bootstrap'],
     github: 'https://github.com/Geradot/prometheus-x-course-task',

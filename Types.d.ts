@@ -17,6 +17,7 @@ type SkillBarProps = {
 type ProjectProps = {
   id: number;
   img: string;
+  imgMobile: string,
   name: string;
   tools: string[];
   github: string;
