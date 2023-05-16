@@ -4,8 +4,6 @@ import Link from 'next/link';
 import { AiFillGithub, AiFillEye } from 'react-icons/ai';
 
 export default function MyWorks() {
-  let isPortrait = window.innerWidth < 480;
-
   return (
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 p-6">
       {projects.map(project => (
@@ -14,19 +12,11 @@ export default function MyWorks() {
           className="bg-Blur flex flex-col justify-between p-4 h-auto rounded-lg"
         >
           <div className="w-full h-3/4 relative group">
-            {isPortrait ? (
-              <img
-                src={`/${project.imgMobile}`}
-                alt={project.name}
-                className="w-full h-full object-contain"
-              />
-            ) : (
-              <img
-                src={`/${project.img}`}
-                alt={project.name}
-                className="w-full h-full object-contain"
-              />
-            )}
+            <img // TODO: разные изображения для разных ориентаций экранов
+              src={`/${project.img}`}
+              alt={project.name}
+              className="w-full h-full object-contain"
+            />
             <div className="absolute w-full h-full bg-Orange top-0 left-0 z-10 flex items-center justify-center gap-4 scale-0 group-hover:scale-100 transition-all duration-300">
               <Link
                 href={project.github}
