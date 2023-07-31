@@ -20,7 +20,7 @@ export default function Home() {
         </div>
         <div className="uppercase font-bold xs:text-2xl text-xl text-Orange text-end mt-8">
           A Front-end <br />
-          developer
+          web developer
         </div>
         <div className="about__buttons text-White hidden max-md:flex mx-auto mt-8 w-max py-2 px-2">
           <Link href="/about" className="sm:text-xl">About me</Link>

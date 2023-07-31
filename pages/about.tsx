@@ -28,10 +28,10 @@ export default function About() {
                Anton «Geradot» Ryzhenko
             </div>
             <h1 className="text-start lg:text-start font-semibold text-2xl lg:text-3xl mt-8 text-WhiteGray uppercase">
-              Front-end developer
+              Front-end web developer
             </h1>
             <p className="text-WhiteGray text-sm mt-8 leading-7">
-              I am a passionate front-end developer
+              I am a passionate front-end web developer
               with an equal focus on usability and attractiveness of websites.
               Excited to collaborate on new projects!
             </p>
