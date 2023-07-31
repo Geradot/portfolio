@@ -6,6 +6,10 @@
   scrollbar-gutter: stable;
 }
 
+body {
+  overscroll-behavior-y: none;
+}
+
 ::-webkit-scrollbar {
   width: 0.75rem;
   background: #b3b2b1;
