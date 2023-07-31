@@ -1,6 +1,5 @@
 import {
   ContactsProps,
-  countUpItemsProps,
   NavLink,
   ProjectProps,
 } from '@/Types';
@@ -12,29 +11,6 @@ const navLinks: NavLink[] = [
   { path: '/contact', label: 'Contact' },
 ];
 
-const countUpItems: countUpItemsProps[] = [
-  {
-    id: 1,
-    number: 9,
-    text: 'Years of Experience',
-  },
-  {
-    id: 2,
-    number: 178,
-    text: 'Satisfied Customers',
-  },
-  {
-    id: 3,
-    number: 742,
-    text: 'Design Items',
-  },
-  {
-    id: 4,
-    number: 112,
-    text: 'Clients Served',
-  },
-];
-
 const projects: ProjectProps[] = [
   {
     id: 1,
@@ -43,7 +19,7 @@ const projects: ProjectProps[] = [
     name: 'Ellen seamstress (portfolio site)',
     tools: ['NextJS', 'Tailwind CSS', 'Headless UI'],
     github: 'https://github.com/Geradot/next-promo-ellen-surzhykova',
-    url: 'https://next-promo-ellen-surzhykova.vercel.app/',
+    url: 'https://ellen-seamstress.vercel.app/',
   },
   {
     id: 2,
@@ -69,10 +45,10 @@ const skills = [
   { name: 'HTML', level: 80 },
   { name: 'CSS', level: 75 },
   { name: 'JavaScript', level: 70 },
-  { name: 'ReactJS', level: 75 },
-  { name: 'NextJS', level: 65 },
-  { name: 'TypeScript', level: 50 },
-  { name: 'Tailwind', level: 70 },
+  { name: 'React.JS', level: 70 },
+  { name: 'Next.JS', level: 70 },
+  { name: 'TypeScript', level: 60 },
+  { name: 'Tailwind CSS', level: 70 },
   { name: 'Bootstrap', level: 65 },
 ];
 
@@ -81,4 +57,4 @@ const contacts: ContactsProps[] = [
   { id: 2, title: 'Email', text: 'anton.ryzhenko@tuta.io' },
 ];
 
-export { navLinks, projects, countUpItems, skills, contacts };
+export { navLinks, projects, skills, contacts };

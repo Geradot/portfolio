@@ -31,3 +31,7 @@
 .contacts > a > span {
   @apply my-auto
 }
+
+p {
+  text-wrap: balance;
+}

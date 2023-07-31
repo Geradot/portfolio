@@ -1,5 +1,6 @@
 import Wrapper from '@/components/wrapper/Wrapper';
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
         <div className="uppercase font-bold xs:text-2xl text-xl text-Orange text-end mt-8">
           A Front-end <br />
           developer
+        </div>
+        <div className="about__buttons text-White hidden max-md:flex mx-auto mt-8 w-max py-2 px-2">
+          <Link href="/about" className="sm:text-xl">About me</Link>
         </div>
       </Wrapper>
     </>

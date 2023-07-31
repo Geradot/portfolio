@@ -22,7 +22,7 @@ export default function Contact() {
             Let&apos;s discuss how I can contribute to your team and deliver
             top-notch results.
           </p>
-          <div className="contacts flex flex-col items-center text-WhiteGray gap-4">
+          <div className="contacts mx-auto w-max flex flex-col text-WhiteGray gap-4">
             <a href="tel:+17124496101">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import { navLinks } from '@/Data/Data';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { HiOutlineMenuAlt4, HiX } from 'react-icons/hi';
+import { HiOutlineMenu, HiX } from 'react-icons/hi';
 import { useEffect, useState } from 'react';
 import SocialButtons from '@/components/social-buttons/SocialButtons';
 
@@ -82,8 +82,8 @@ export default function Navbar() {
             ))}
           </div>
           <div className="flex md:hidden items-center">
-            <HiOutlineMenuAlt4
-              className="text-White cursor-pointer w-6 h-6"
+            <HiOutlineMenu
+              className="text-White cursor-pointer w-7 h-7"
               onClick={() => setShowMenu(prev => !prev)}
             />
           </div>
@@ -105,7 +105,7 @@ export default function Navbar() {
           <Link
             key={navLink.label}
             href={navLink.path}
-            className={`block px-3 py-2 text-5xl font-medium ${isActive(
+            className={`block pl-6 py-2 text-5xl font-medium ${isActive(
               navLink.path
             )}`}
             onClick={() => setShowMenu(prev => !prev)}
@@ -115,7 +115,7 @@ export default function Navbar() {
         ))}
         <SocialButtons className="fixed bottom-4 left-6 flex items-center flex-col gap-4" />
         <HiX
-          className="absolute text-White top-20 right-8 w-6 h-6 cursor-pointer"
+          className="absolute text-White top-[3rem] right-[1rem] w-7 h-7 cursor-pointer"
           onClick={() => setShowMenu(prev => !prev)}
         />
       </motion.nav>
