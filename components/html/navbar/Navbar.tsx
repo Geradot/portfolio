@@ -64,7 +64,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <Link
             href="/"
-            className="text-3xl text-WhiteGray"
+            className={`text-3xl transition-all duration-300 ${navScroll ? 'text-neutral-100 drop-shadow-[1px_1px_0px_black]' : 'text-WhiteGray '}`}
           >
             {process.env.brandName}
           </Link>
@@ -76,7 +76,7 @@ export default function Navbar() {
                 key={navLink.path}
                 className={`transition-all duration-300 text-lg uppercase Text-Shadow font-medium ${isActive(
                   navLink.path
-                )}`}
+                )} ${navScroll ? 'text-neutral-100 drop-shadow-[0px_0px_1px_black]' : ''}`}
               >
                 {navLink.label}
               </Link>
