@@ -10,17 +10,17 @@ export default function Portfolio() {
       </Head>
 
       <Wrapper>
-        <div className="flex flex-col pt-40 items-center">
-          <h1 className="font-semibold text-center text-3xl text-WhiteGray uppercase">
-            My Work Collections
+        <div className="flex flex-col text-start md:text-center justify-center px-6 pt-40">
+          <h1 className="font-semibold text-3xl text-WhiteGray uppercase">
+            My Work Collection
           </h1>
-          <p className="text-WhiteGray text-sm mt-8 leading-7">
+          {/* <p className="text-WhiteGray text-sm mt-8 leading-7">
             I specialize in developing custom web applications that cater to
             diverse business needs, from e-commerce platforms to data
             visualization dashboards, using the lates technologies and agile
             methodologies to deliver exceptional user experiences and measurable
             business outcomes.
-          </p>
+          </p> */}
           <MyWorks />
         </div>
       </Wrapper>

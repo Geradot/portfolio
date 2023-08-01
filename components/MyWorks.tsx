@@ -5,7 +5,7 @@ import { AiFillGithub, AiFillEye } from 'react-icons/ai';
 
 export default function MyWorks() {
   return (
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 p-6">
+    <div className="grid mt-6 md:grid-cols-2 lg:grid-cols-3 gap-4">
       {projects.map(project => (
         <div
           key={project.id}

@@ -14,10 +14,10 @@ const navLinks: NavLink[] = [
 const projects: ProjectProps[] = [
   {
     id: 1,
-    img: 'project3.png',
+    img: 'project3_1.png',
     imgMobile: 'project3-mobile.jpg',
     name: 'Ellen seamstress (portfolio site)',
-    tools: ['NextJS', 'Tailwind CSS', 'Headless UI'],
+    tools: ['Next.JS', 'Tailwind CSS', 'Headless UI'],
     github: 'https://github.com/Geradot/next-promo-ellen-surzhykova',
     url: 'https://ellen-seamstress.vercel.app/',
   },
@@ -35,7 +35,7 @@ const projects: ProjectProps[] = [
     img: 'project1.png',
     imgMobile: 'project1-mobile.jpg',
     name: 'Bookstore SPA',
-    tools: ['React', 'JavaScript', 'Bootstrap'],
+    tools: ['React.JS', 'JavaScript', 'Bootstrap'],
     github: 'https://github.com/Geradot/prometheus-x-course-task',
     url: 'https://geradot.github.io/prometheus-x-course-task/',
   },

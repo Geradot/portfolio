@@ -51,7 +51,7 @@ export default function Navbar() {
   };
 
   return (
-    <header
+  <header
       className={`fixed w-full top-0 left-0 z-20 ${
         navScroll ? 'bg-Glass backdrop-blur-sm' : ''
       }`}
@@ -68,6 +68,7 @@ export default function Navbar() {
           >
             {process.env.brandName}
           </Link>
+
           <div className="hidden md:flex items-center justify-center space-x-4">
             {navLinks.map(navLink => (
               <Link
@@ -81,6 +82,7 @@ export default function Navbar() {
               </Link>
             ))}
           </div>
+
           <div className="flex md:hidden items-center">
             <HiOutlineMenu
               className="text-White cursor-pointer w-7 h-7"
@@ -89,12 +91,14 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
+
       <motion.div
         variants={menuVariants}
         initial="hidden"
         animate={showMenu ? 'visible' : 'hidden'}
         className="bg-Black fixed top-0 right-0 w-16 h-16 rounded-full"
       ></motion.div>
+
       <motion.nav
         variants={navLinkVariants}
         initial='hidden'
@@ -114,6 +118,7 @@ export default function Navbar() {
           </Link>
         ))}
         <SocialButtons className="fixed bottom-4 left-6 flex items-center flex-col gap-4" />
+
         <HiX
           className="absolute text-White top-[3rem] right-[1rem] w-7 h-7 cursor-pointer"
           onClick={() => setShowMenu(prev => !prev)}
